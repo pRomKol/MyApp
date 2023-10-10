@@ -10,14 +10,27 @@ function App() {
             <ImageWrapper>
                 <CoverImg src={img}/>
             </ImageWrapper>
-            <CardTitle>Headline</CardTitle>
-            <CardMainText>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standa </CardMainText>
+            <CardTitle>
+                Headline
+            </CardTitle>
+            <CardMainText>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standa
+            </CardMainText>
+            <Buttons>
+                <Button>
+
+                </Button>
+                <Button>
+
+                </Button>
+            </Buttons>
         </Card>
       </Wrapper>
 
 
   );
 }
+
 const CardTitle = styled.div`
     margin: 0px 0px 0px 20px;
     font-weight: 700;
@@ -52,6 +65,9 @@ width: 550px;
   background-color: #fff;
   border-radius: 13px;
 `
-const Buttons = styled.div
+const Buttons = styled.div`
+display: flex`
+const Button = styled.button`
+`
 
 export default App;
